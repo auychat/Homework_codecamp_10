@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Book</title>
+  </head>
+
+  <!-- CSS STYLE -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background: whitesmoke;
+    }
+
+    table {
+      border: 2px dashed #ccc;
+      border-collapse: collapse;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    table tr {
+      background-color: #f8f8f8;
+      border: 2px dashed #ddd;
+      padding: 0.35em;
+    }
+
+    table th,
+    table td {
+      padding: 0.625em;
+      text-align: center;
+      border: 2px dashed #ddd;
+    }
+
+    table th {
+      font-size: 0.85em;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    a {
+        color: rgb(31, 31, 31);
+    }
+
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+  </style>
+  <body>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Tel no.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TA Tle</td>
+            <td><a href="#">083-4284942</a></td>
+          </tr>
+
+          <tr>
+            <td>KFC</td>
+            <td><a href="#">1150</a></td>
+          </tr>
+
+          <tr>
+            <td>Pizza Hut</td>
+            <td><a href="#">1112</a></td>
+          </tr>
+
+          <tr>
+            <td>Yayoi-ยาโยอิ</td>
+            <td><a href="#">1642</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
